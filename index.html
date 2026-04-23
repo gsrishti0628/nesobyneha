@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Neso by Neha — Art by Neha Chawla</title>
+  <meta name="description" content="Original artwork and custom orders by Neha Chawla — San Diego based artist. Browse her work and place custom orders." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Inter:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav id="navbar">
+    <div class="nav-inner">
+      <a class="logo" href="#hero">Neso by Neha</a>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#order">Custom Orders</a></li>
+        <li><a href="https://www.instagram.com/nesobyneha/" target="_blank" rel="noopener" class="nav-ig">Instagram ↗</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section id="hero">
+    <div class="hero-content">
+      <p class="hero-sub">San Diego Artist</p>
+      <h1>Neso<br /><em>by Neha</em></h1>
+      <p class="hero-desc">Original paintings, illustrations, and custom artwork — made with heart.</p>
+      <div class="hero-cta">
+        <a href="#gallery" class="btn btn-primary">View Gallery</a>
+        <a href="#order" class="btn btn-outline">Place Custom Order</a>
+      </div>
+    </div>
+    <div class="hero-scroll">
+      <span>scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- INSTAGRAM GALLERY -->
+  <section id="gallery">
+    <div class="section-header">
+      <p class="section-label">Portfolio</p>
+      <h2>Featured Works</h2>
+      <p class="section-desc">A curated selection from Neha's studio. Follow her on Instagram for the full collection.</p>
+    </div>
+
+    <!-- Instagram Embed Grid -->
+    <div class="ig-embed-grid" id="ig-grid">
+      <!-- Embed slots — replace the data-permalink values with actual post URLs from @nesobyneha -->
+      <div class="ig-embed-slot">
+        <blockquote class="instagram-media"
+          data-instgrm-permalink="https://www.instagram.com/nesobyneha/"
+          data-instgrm-version="14"
+          data-instgrm-captioned>
+        </blockquote>
+      </div>
+    </div>
+
+    <!-- Manual gallery grid (shown when embeds aren't used) -->
+    <div class="gallery-grid" id="gallery-grid">
+      <div class="gallery-card placeholder">
+        <div class="placeholder-art">
+          <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="100" cy="70" r="40" fill="#d4a89a" opacity="0.6"/>
+            <rect x="40" y="120" width="120" height="60" rx="8" fill="#8b6f6f" opacity="0.4"/>
+            <circle cx="60" cy="50" r="20" fill="#e8c4b0" opacity="0.5"/>
+          </svg>
+        </div>
+        <p>Original Artwork</p>
+      </div>
+      <div class="gallery-card placeholder">
+        <div class="placeholder-art">
+          <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+            <polygon points="100,20 180,160 20,160" fill="#c9a87c" opacity="0.5"/>
+            <circle cx="100" cy="110" r="35" fill="#9b7ea6" opacity="0.6"/>
+          </svg>
+        </div>
+        <p>Custom Piece</p>
+      </div>
+      <div class="gallery-card placeholder">
+        <div class="placeholder-art">
+          <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+            <rect x="30" y="30" width="140" height="100" rx="12" fill="#a8c5d4" opacity="0.5"/>
+            <circle cx="80" cy="80" r="25" fill="#d4b8a8" opacity="0.7"/>
+            <circle cx="130" cy="90" r="18" fill="#8ba89b" opacity="0.6"/>
+          </svg>
+        </div>
+        <p>Illustration</p>
+      </div>
+      <div class="gallery-card placeholder">
+        <div class="placeholder-art">
+          <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+            <ellipse cx="100" cy="100" rx="70" ry="50" fill="#d4c5a9" opacity="0.5"/>
+            <circle cx="100" cy="80" r="30" fill="#c4957a" opacity="0.6"/>
+          </svg>
+        </div>
+        <p>Portrait</p>
+      </div>
+      <div class="gallery-card placeholder">
+        <div class="placeholder-art">
+          <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+            <rect x="20" y="60" width="70" height="120" rx="6" fill="#9b8ea8" opacity="0.5"/>
+            <rect x="110" y="40" width="70" height="140" rx="6" fill="#8ea89b" opacity="0.5"/>
+          </svg>
+        </div>
+        <p>Abstract Art</p>
+      </div>
+      <div class="gallery-card ig-link-card">
+        <a href="https://www.instagram.com/nesobyneha/" target="_blank" rel="noopener">
+          <div class="ig-icon">
+            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="2" y="2" width="20" height="20" rx="5" stroke="currentColor" stroke-width="1.5"/>
+              <circle cx="12" cy="12" r="4" stroke="currentColor" stroke-width="1.5"/>
+              <circle cx="17.5" cy="6.5" r="1" fill="currentColor"/>
+            </svg>
+          </div>
+          <p>View all work<br />on Instagram</p>
+          <span class="arrow">→</span>
+        </a>
+      </div>
+    </div>
+
+    <div class="gallery-cta">
+      <a href="https://www.instagram.com/nesobyneha/" target="_blank" rel="noopener" class="btn btn-outline">
+        See more on Instagram ↗
+      </a>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="about-inner">
+      <div class="about-image">
+        <div class="about-image-frame">
+          <svg viewBox="0 0 300 380" xmlns="http://www.w3.org/2000/svg" class="about-placeholder-art">
+            <rect width="300" height="380" fill="#f5ede8"/>
+            <circle cx="150" cy="140" r="70" fill="#d4a89a" opacity="0.7"/>
+            <ellipse cx="150" cy="300" rx="100" ry="60" fill="#8b6f6f" opacity="0.3"/>
+            <circle cx="100" cy="100" r="30" fill="#e8c4b0" opacity="0.5"/>
+            <circle cx="200" cy="80" r="20" fill="#c9a87c" opacity="0.5"/>
+          </svg>
+          <p class="image-caption">Replace with Neha's photo</p>
+        </div>
+      </div>
+      <div class="about-text">
+        <p class="section-label">About the Artist</p>
+        <h2>Neha Chawla</h2>
+        <p>Based in sunny San Diego, Neha creates artwork that captures emotion, color, and story. Under her brand <em>Neso by Neha</em>, she brings a distinctive style to every piece — whether it's a vibrant abstract, a heartfelt portrait, or a custom creation for a special occasion.</p>
+        <p>Each artwork is made with intention and care. Neha works across multiple mediums and loves collaborating closely with clients on custom orders that hold personal meaning.</p>
+        <div class="about-facts">
+          <div class="fact">
+            <span class="fact-num">♥</span>
+            <span>Custom commissions welcome</span>
+          </div>
+          <div class="fact">
+            <span class="fact-num">✦</span>
+            <span>Based in San Diego, CA</span>
+          </div>
+          <div class="fact">
+            <span class="fact-num">✉</span>
+            <span>Ships worldwide</span>
+          </div>
+        </div>
+        <a href="https://www.instagram.com/nesobyneha/" target="_blank" rel="noopener" class="btn btn-primary">Follow @nesobyneha</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CUSTOM ORDER FORM -->
+  <section id="order">
+    <div class="section-header">
+      <p class="section-label">Commission</p>
+      <h2>Place a Custom Order</h2>
+      <p class="section-desc">Have something special in mind? Reach out and Neha will work with you to bring your vision to life.</p>
+    </div>
+
+    <div class="order-inner">
+      <div class="order-info">
+        <h3>How it works</h3>
+        <ol class="process-steps">
+          <li>
+            <span class="step-num">01</span>
+            <div>
+              <strong>Tell Neha your idea</strong>
+              <p>Share your concept, references, preferred size, and any special details using the form.</p>
+            </div>
+          </li>
+          <li>
+            <span class="step-num">02</span>
+            <div>
+              <strong>Get a quote</strong>
+              <p>Neha will review your request and respond within 2–3 business days with pricing and timeline.</p>
+            </div>
+          </li>
+          <li>
+            <span class="step-num">03</span>
+            <div>
+              <strong>Bring it to life</strong>
+              <p>Once approved, Neha starts creating. She'll share progress updates along the way.</p>
+            </div>
+          </li>
+          <li>
+            <span class="step-num">04</span>
+            <div>
+              <strong>Delivered with love</strong>
+              <p>Your artwork is carefully packaged and shipped directly to you.</p>
+            </div>
+          </li>
+        </ol>
+      </div>
+
+      <form class="order-form" id="order-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+        <!-- Replace YOUR_FORM_ID with your Formspree form ID after signing up at formspree.io -->
+        <div class="form-row">
+          <div class="form-group">
+            <label for="name">Your Name *</label>
+            <input type="text" id="name" name="name" required placeholder="Jane Doe" />
+          </div>
+          <div class="form-group">
+            <label for="email">Email Address *</label>
+            <input type="email" id="email" name="email" required placeholder="jane@example.com" />
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="order-type">Type of Artwork *</label>
+          <select id="order-type" name="order_type" required>
+            <option value="" disabled selected>Select a type</option>
+            <option value="portrait">Portrait (person / pet)</option>
+            <option value="abstract">Abstract Painting</option>
+            <option value="illustration">Illustration</option>
+            <option value="landscape">Landscape</option>
+            <option value="gift">Gift / Occasion Piece</option>
+            <option value="other">Other (describe below)</option>
+          </select>
+        </div>
+
+        <div class="form-row">
+          <div class="form-group">
+            <label for="size">Preferred Size</label>
+            <select id="size" name="size">
+              <option value="" disabled selected>Select size</option>
+              <option value="small">Small (up to 8×10")</option>
+              <option value="medium">Medium (up to 16×20")</option>
+              <option value="large">Large (up to 24×36")</option>
+              <option value="custom">Custom size</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="budget">Approximate Budget</label>
+            <select id="budget" name="budget">
+              <option value="" disabled selected>Select range</option>
+              <option value="under-100">Under $100</option>
+              <option value="100-250">$100 – $250</option>
+              <option value="250-500">$250 – $500</option>
+              <option value="500-plus">$500+</option>
+              <option value="open">Open / Let Neha quote</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="description">Describe Your Vision *</label>
+          <textarea id="description" name="description" required rows="5"
+            placeholder="Tell Neha about your idea — the subject, mood, colors, any references, and what makes it special to you."></textarea>
+        </div>
+
+        <div class="form-group">
+          <label for="reference">Reference Links or Notes</label>
+          <input type="text" id="reference" name="reference"
+            placeholder="Links to inspiration images, Instagram posts, Pinterest boards, etc." />
+        </div>
+
+        <div class="form-group">
+          <label for="timeline">Desired Timeline</label>
+          <input type="text" id="timeline" name="timeline"
+            placeholder="e.g. Need by June 15 for a birthday gift" />
+        </div>
+
+        <!-- Honeypot for spam -->
+        <input type="text" name="_gotcha" style="display:none" />
+        <input type="hidden" name="_subject" value="New Custom Order Request — Neso by Neha" />
+
+        <button type="submit" class="btn btn-primary btn-full" id="submit-btn">
+          Send My Request ✦
+        </button>
+        <p class="form-note">Neha will reply within 2–3 business days. No commitment until you approve the quote.</p>
+
+        <div class="form-success" id="form-success" aria-live="polite">
+          <span>✦</span>
+          <p>Thank you! Neha will be in touch soon.</p>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <p class="logo">Neso by Neha</p>
+        <p>Original art from San Diego, CA</p>
+      </div>
+      <div class="footer-links">
+        <a href="https://www.instagram.com/nesobyneha/" target="_blank" rel="noopener">Instagram</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#about">About</a>
+        <a href="#order">Custom Orders</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 Neso by Neha — All artwork is original and protected by copyright.</p>
+    </div>
+  </footer>
+
+  <!-- Instagram embed script -->
+  <script async defer src="//www.instagram.com/embed.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
