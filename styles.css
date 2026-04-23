@@ -361,7 +361,7 @@ section { padding: 100px 32px; }
   border: 1px solid var(--border);
 }
 
-.about-placeholder-art { width: 100%; height: auto; display: block; }
+.about-image-frame img { width: 100%; height: 100%; object-fit: cover; display: block; }
 
 .image-caption {
   position: absolute;
